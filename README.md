@@ -8,26 +8,22 @@ Docker and Docker Compose should be installed on your machine.
 
 ## Getting Started
 
-1. Clone the repository:
-```bash
-git clone <repository-link>
-cd ecwid-test-task
-```
-
-2. Run the project:
+1. Run the project:
 ```bash
 docker-compose up --build
 ```
 
-3.	Access the applications:
-•	**widget-recent**: http://localhost:8081
-•	**settings**: http://localhost:8082
+2.	Access the applications:
+
+  •	**widget-recent**: http://localhost:8081
+  •	**settings**: http://localhost:8082
 
 ## Docker Compose Configuration
 
 The docker-compose.yml file defines two services:
-•	**widget-recent**: Mapped to port 8081 on your local machine.
-•	**settings**: Mapped to port 8082 on your local machine.
+
+  •	**widget-recent**: Mapped to port 8081 on your local machine.
+  •	**settings**: Mapped to port 8082 on your local machine.
 
 Each application has its own Dockerfile to handle dependencies and build processes. Both applications run in the same Docker network, vue-network, for isolated communication.
 
