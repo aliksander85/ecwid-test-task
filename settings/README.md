@@ -31,15 +31,3 @@ yarn dev
 ```sh
 yarn build
 ```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-yarn test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-yarn lint
-```
